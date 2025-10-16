@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const About = () => {
   const openResumeLink = () => {
     window.open(
-      "https://drive.google.com/file/d/1xigSBXG4DxC8WfZTG6U7-S4qJVzTiIjd/view?usp=drive_link",
+      "https://drive.google.com/file/d/1KjMNSZQo9zj34mB-HXWVoihYlEiwn0X0/view?usp=sharing",
       "_blank"
     );
   };
@@ -22,17 +22,15 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-2xl font-semibold mt-1">
-          I'm Mayank Shekhar Tripathi
-        </p>
+        <p className="text-2xl font-semibold mt-1">I'm Mayank Tripathi</p>
         <br />
         <p className="text-xl text-gray-400">
-          I am a experienced Frontend Developer adapt at building single-page
-          React applications and creating responsive user interfaces.
-          Demonstrates exceptional time-management skills and the ability to
-          lead and coordinate projects effectively. Proficient in JavaScript,
-          HTML, and CSS, with extensive knowledge of JavaScript ES6+, redux,
-          axios, and Dev tools.
+          Experienced Front-End/Full-Stack Engineer proficient in advanced
+          JavaScript (ES6+), React.js, and Redux, with back-end integration
+          expertise using Node.js and Express. Adept at leading and coordinating
+          projects, I focus on delivering well-architected, responsive user
+          interfaces and optimizing application performance. Possesses proven
+          skills in technical coordination and effective time management.
         </p>
         <div className="mt-10 flex">
           <Link

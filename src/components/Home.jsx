@@ -15,7 +15,7 @@ const Home = () => {
             Hey, My Name is
           </p>
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            Mayank Shekhar Tripathi
+            Mayank Tripathi
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             An enthusiastic developer with a knack for building products with
@@ -39,6 +39,7 @@ const Home = () => {
         <div className="md:w-1/2 mt-72">
           <img
             src={Hero}
+            loading="lazy"
             alt="my profile"
             className="rounded-full mx-auto w-2/3 md:w-2/3"
           />
